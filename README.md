@@ -14,7 +14,7 @@ $ npm install --save-dev babel-preset-es2020
 **.babelrc**
 ```json
 {
-  'presets': ['es2020']
+  "presets": ["es2020"]
 }
 ```
 
