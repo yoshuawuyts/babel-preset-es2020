@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-es2020",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Babel preset for a subset of ES6",
   "main": "index.js",
   "scripts": {
