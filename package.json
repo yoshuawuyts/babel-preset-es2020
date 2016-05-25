@@ -1,0 +1,27 @@
+{
+  "name": "babel-preset-es2020",
+  "version": "1.0.0",
+  "description": "Babel preset for a subset of ES6",
+  "main": "index.js",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "test": "standard && npm run deps && NODE_ENV=test node test",
+    "test:cov": "standard && npm run deps && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "yoshuawuyts/babel-preset-es2020",
+  "keywords": [
+    "babel",
+    "preset",
+    "es2020",
+    "hindsight",
+    "nah-mate"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "dependency-check": "^2.5.1",
+    "istanbul": "^0.4.3",
+    "standard": "^7.0.1",
+    "tape": "^4.5.1"
+  }
+}
