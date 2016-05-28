@@ -17,7 +17,12 @@
     "nah-mate"
   ],
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "babel-plugin-check-es2015-constants": "^6.8.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.8.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.9.0",
+    "babel-plugin-transform-es2015-template-literals": "^6.8.0"
+  },
   "devDependencies": {
     "dependency-check": "^2.5.1",
     "istanbul": "^0.4.3",
